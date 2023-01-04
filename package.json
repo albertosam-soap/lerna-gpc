@@ -1,0 +1,14 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^6.0.1",
+    "lerna-dockerize": "^1.0.4"
+  },
+  "scripts": {
+    "lerna-dockerize": "lerna-dockerize"
+  }
+}
